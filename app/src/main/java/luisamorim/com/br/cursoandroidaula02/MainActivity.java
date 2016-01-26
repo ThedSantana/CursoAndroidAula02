@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 BigDecimal bigDecimal1 = new BigDecimal(num2);
                 BigDecimal result = bigDecimal.add(bigDecimal1);
                 ((TextView)findViewById(R.id.txtResultado)).setText(result.toString());
+                System.out.println("soma: " + result);
 
             }
         });
